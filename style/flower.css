@@ -12,6 +12,8 @@
             font-size: 1.5rem;
             color: rgba(0, 0, 0, 0.5);
         }
+      
+        
 /* product section start */
         .product-section {
             max-width: 1140px;
@@ -67,9 +69,34 @@
             width: 100%;
         }
 
+/* flower stor section style */
+.flower-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 240px;
 
+    
+}
+.flower-stor-container{
+    width: 50%;
+}
+.flower-shop-contant{
+    margin-left: 40px;
+}
+.flower-stor-container ul li{
+    list-style:disc ;
+    font-size: 1.5rem;
+}
+.flower-header{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 25px;
+}
 
-        /* Responsive  */
+       /* Responsive  */
 
         @media screen and (max-width:576px) {
             .header-contant {
@@ -92,5 +119,16 @@
             }
         .product-header-contant{
             margin: 0 20px;
+        }
+        /* flower section */
+       .flower-section{
+            flex-direction: column;
+        }
+        .flower-header{
+            margin: 0;
+            padding: 0;
+        }
+        .flower-stor-container{
+            width: 100%;
         }
         }
